@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <script async src="//www.marshall.edu/marsha-components/dist/app.js"></script>
+	<link rel="stylesheet" href="//www.marshall.edu/wp-content/themes/marsha/css/marsha2.0.css" media="all">
+	<script type='text/javascript' src='//cdn.jsdelivr.net/gh/alpinejs/alpine@v2.7.0/dist/alpine.min.js' id='alpine-js-js'></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marsha Theme Components</title>
+</head>
+<body class="h-full">
+	<div class="flex flex-col h-full">
+		<mu-header></mu-header>
+
+		<div class="flex-grow">
+			<mu-site-title>Calendar</mu-site-title>
+
+			<div class="w-full xl:max-w-screen-xl px-6 lg:px-10 xl:px-0 xl:mx-auto pt-4 lg:pt-12 pb-16">
+				<div class="flex flex-wrap mx-0 lg:-mx-6 px-4 lg:px-0">
+					<div class="w-full lg:w-3/4 lg:px-6">
+						<article>
+							<header>
+								<mu-page-title hidden>Marshall Calendar of Events</mu-page-title>
+							</header>
+
+							<div class="entry-content">
+								<script type="text/javascript" src="//www.trumba.com/scripts/spuds.js"></script>
+								<script type="text/javascript">$Trumba.addSpud({webName: "Marshall",spudType : "eventslider",spudConfig : "Featured Events",teaserBase : "" });</script><noscript>Your browser must support JavaScript to view this content. Please enable JavaScript in your browser settings then try again.</noscript>
+								<script type="text/javascript">$Trumba.addSpud({webName: "Marshall",spudType : "tabchooser",spudConfig : "",teaserBase : "" });</script><noscript>Your browser must support JavaScript to view this content. Please enable JavaScript in your browser settings then try again.</noscript>
+								<script type="text/javascript">$Trumba.addSpud({webName: "Marshall",spudType : "main",spudConfig : "",teaserBase : "" });</script><noscript>Your browser must support JavaScript to view this content. Please enable JavaScript in your browser settings then try again.</noscript>
+							</div>
+						</article>
+					</div>
+					<div class="w-full lg:w-1/4 lg:px-6 mt-6 lg:mt-0">
+						<div class="widget_nav_menu">
+							<ul class="side-navigation">
+								<li class="menu-item"><a href="https://www.marshall.edu/ucomm/project/">Submit an Event</a></li>
+								<li class="menu-item"><a href="https://www.marshall.edu/academic-calendar/">Academic Calendar</a></li>
+								<li class="menu-item"><a href="https://www.marshall.edu/msc/home/facilities-scheduling/">Request a Facility</a></li>
+							</ul>
+						</div>
+						<div class="mt-6">
+							<script type="text/javascript">$Trumba.addSpud({webName: "Marshall",spudType : "searchlabeled",spudConfig : "",teaserBase : "" });</script><noscript>Your browser must support JavaScript to view this content. Please enable JavaScript in your browser settings then try again.</noscript>
+						</div>
+						<div class="mt-6">
+							<script type="text/javascript">$Trumba.addSpud({webName: "Marshall",spudType : "datefinder",spudConfig : "",teaserBase : "" });</script><noscript>Your browser must support JavaScript to view this content. Please enable JavaScript in your browser settings then try again.</noscript>
+						</div>
+						<div class="mt-6">
+							<script type="text/javascript">$Trumba.addSpud({webName: "Marshall",spudType : "filter",spudConfig : "",teaserBase : "" });</script><noscript>Your browser must support JavaScript to view this content. Please enable JavaScript in your browser settings then try again.</noscript>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<mu-footer></mu-footer>
+	</div>
+</body>
+</html>
